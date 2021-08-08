@@ -5,7 +5,10 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'prettier',
+    'prettier/react',
   ],
+  parser: 'babe-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -15,9 +18,20 @@ module.exports = {
   },
   plugins: [
     'react',
+    'prettier',
+    'react-hooks',
+    'jsx-a11y',
+    'import',
   ],
   rules: {
-    // 'react/jsx-filename-extension': [1, { allow: 'as-needed' }],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': [
+      'warn',
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
+    'import/prefer-default-export': 'off',
+    'no-param-reassign': 'off',
   },
 };
