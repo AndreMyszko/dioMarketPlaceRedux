@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, TouchableOpacity} from 'react-native';
 import {Container} from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 
@@ -12,10 +12,18 @@ const Header = () => {
         height: 32,
         width: 32,
       }}/>
-      <Icon name="linkedin" size={25} color={'#FFFFFF'}/>
-      <Icon name="github" size={25} color={'#FFFFFF'}/>
+      <TouchableOpacity>
+        <Icon name="linkedin" size={25} color={'#FFFFFF'}/>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <Icon name="github" size={25} color={'#FFFFFF'}/>
+      </TouchableOpacity>
+        <TouchableOpacity>
       <Icon name="youtube" size={25} color={'#FFFFFF'}/>
-      <Icon name="instagram" size={25} color={'#FFFFFF'}/>
+        </TouchableOpacity>
+      <TouchableOpacity>
+        <Icon name="instagram" size={25} color={'#FFFFFF'}/>
+      </TouchableOpacity>
     </Container>
   )
 }
