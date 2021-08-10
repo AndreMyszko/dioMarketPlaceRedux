@@ -6,7 +6,7 @@ export const Container = styled.View`
   align-items: center;
 `;
 
-export const ProdutoContainer = styled.View`
+export const ProductContainer = styled.View`
   flex: 1;
   flex-direction: row;
   margin-top: 40px;
@@ -53,7 +53,7 @@ export const PriceContainer = styled.View`
 `;
 
 export const ProductPrice = styled.Text`
-  color: #000000;
+  color: #FFFFFF;
   font-size: 22px;
   font-weight: bold;
   `;
@@ -66,12 +66,12 @@ export const ProductButton = styled.TouchableOpacity`
   flex-direction: row;
   `;
 
-export const ProductButtonText = styled.TouchableOpacity`
-  color: #323;
+export const ProductButtonText = styled.Text`
+  color: #FFFFFF;
   font-weight: 800;
   padding: 0px 4px;
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
 `;
 
