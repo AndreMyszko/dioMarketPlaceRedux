@@ -18,9 +18,9 @@ const Header = () => {
       <TouchableOpacity>
         <Icon name="github" size={25} color={'#FFFFFF'}/>
       </TouchableOpacity>
-        <TouchableOpacity>
-      <Icon name="youtube" size={25} color={'#FFFFFF'}/>
-        </TouchableOpacity>
+      <TouchableOpacity>
+        <Icon name="youtube" size={25} color={'#FFFFFF'}/>
+      </TouchableOpacity>
       <TouchableOpacity>
         <Icon name="instagram" size={25} color={'#FFFFFF'}/>
       </TouchableOpacity>
