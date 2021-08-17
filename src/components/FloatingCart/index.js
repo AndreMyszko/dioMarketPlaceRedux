@@ -1,7 +1,6 @@
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Feather';
-
 import {
   Container,
   CartPricing,
@@ -10,6 +9,7 @@ import {
   CartTotalPrice,
 } from './styles';
 
+
 export default function FloatingCart() {
   const navigation = useNavigation();
   return (
@@ -17,10 +17,10 @@ export default function FloatingCart() {
       <CartButton onPress={() => navigation.navigate('Cart')}>
         <Icon name="shopping-cart" size={24} color="#FFF" />
         <CartButtonText>2 itens</CartButtonText>
-
         <CartPricing>
           <CartTotalPrice>R$ 200,00</CartTotalPrice>
         </CartPricing>
+        <Icon name="chevron-right" size={24} color="#FFFFFF" />
       </CartButton>
     </Container>
   );
