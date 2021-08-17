@@ -56,7 +56,7 @@ export const ProductPrice = styled.Text`
   color: #FFFFFF;
   font-size: 22px;
   font-weight: bold;
-  `;
+`;
 
 export const ProductButton = styled.TouchableOpacity`
   background: #432;
@@ -64,7 +64,7 @@ export const ProductButton = styled.TouchableOpacity`
   border-radius: 100px;
   align-items: center;
   flex-direction: row;
-  `;
+`;
 
 export const ProductButtonText = styled.Text`
   color: #FFFFFF;

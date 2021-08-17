@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View} from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
+// import FloatingCart from '../../components/FloatingCart';
 import formatValue from '../../utils/formatValue';
 import {
   Container,
@@ -51,6 +52,7 @@ export default function App() {
         )}
         />
       </ProductContainer>
+      {/* <FloatingCart /> */}
     </Container>
   );
 }
